@@ -1,0 +1,6 @@
+{
+	"name": "TensorFlow Lite",
+	"render_readme": true,
+	"domains": ["image_processing"],
+	"homeassistant": "2021.1.5"
+}
