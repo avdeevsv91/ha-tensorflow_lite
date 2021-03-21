@@ -23,11 +23,11 @@ Or installation in the `deps` directory:
 pip3 install --no-dependencies --target /config/deps/lib/python3.8/site-packages --extra-index-url https://google-coral.github.io/py-repo/ tflite_runtime==2.5.0
 ```
 
->**Attention! There is currently no way to use the `tflite_runtime` package on [Home Assistant OS](https://github.com/home-assistant/operating-system). If you try to install the package in the `deps` directory, you will lose the ability to run your Home Assistant instance.**
+>**Attention! You can't use the official `tflite_runtime` package on [Home Assistant OS](https://github.com/home-assistant/operating-system). If you try to install the package in the `deps` directory, you will lose the ability to run your Home Assistant instance.**
 >
->To fix this problem, we need to [build the wheel](https://www.tensorflow.org/lite/guide/build_cmake_pip) from the source code using `Alpine Linux` and `musl libc`. If you can do this, then please contact me.
+>To fix this problem, you need to [build the wheel](https://www.tensorflow.org/lite/guide/build_cmake_pip) from the source code using `musl-based toolchain`. More details: https://github.com/avdeevsv91/tflite_runtime-musl
 >
->Instead, you can use the [DOODS integration](https://www.home-assistant.io/integrations/doods/) (but it needs more resources to do this).
+>You can also use the [DOODS integration](https://www.home-assistant.io/integrations/doods/) (but it needs more resources).
 
 3. Restart Home Assistant
 
