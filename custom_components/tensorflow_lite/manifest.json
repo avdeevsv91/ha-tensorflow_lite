@@ -1,7 +1,7 @@
 {
   "domain": "tensorflow_lite",
   "name": "TensorFlow Lite",
-  "documentation": "https://github.com/avdeevsv91/ha-tensorflow_lite",
+  "documentation": "https://github.com/kasitoru/ha-tensorflow_lite",
   "requirements": [
     "tflite_runtime==2.5.0",
     "numpy",

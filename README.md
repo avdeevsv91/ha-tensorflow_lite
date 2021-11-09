@@ -25,7 +25,7 @@ pip3 install --no-dependencies --target /config/deps/lib/python3.8/site-packages
 
 >**Attention! You can't use the official `tflite_runtime` package on [Home Assistant OS](https://github.com/home-assistant/operating-system). If you try to install the package in the `deps` directory, you will lose the ability to run your Home Assistant instance.**
 >
->To fix this problem, you need to [build the wheel](https://www.tensorflow.org/lite/guide/build_cmake_pip) from the source code using `musl-based toolchain`. More details: https://github.com/avdeevsv91/tflite_runtime-musl
+>To fix this problem, you need to [build the wheel](https://www.tensorflow.org/lite/guide/build_cmake_pip) from the source code using `musl-based toolchain`. More details: https://github.com/kasitoru/tflite_runtime-musl
 >
 >You can also use the [DOODS integration](https://www.home-assistant.io/integrations/doods/) (but it needs more resources).
 
